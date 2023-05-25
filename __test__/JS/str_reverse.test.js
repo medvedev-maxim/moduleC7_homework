@@ -1,5 +1,5 @@
 // import { strReverse } from "../../JS/str_reverse.js";
-const strReverse = require("../JS/str_reverse");
+const strReverse = require("../../JS/str_reverse");
 
 describe("Checking the reverse function", () => {
   it("should reverse string", () => expect(strReverse("тест")).toBe("Перевернутая строка: тсет"));
